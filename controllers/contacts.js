@@ -32,7 +32,7 @@ exports.addContact = asyncHandler(async (req, res, next) => {
 // @access  Private
 exports.updateContact = asyncHandler(async (req, res, next) => {
 	const { name, email, phone, type } = req.body;
-	const cntactFields = {};
+	const contactFields = {};
 	if (name) contactFields.name = name;
 	if (email) contactFields.email = email;
 	if (phone) contactFields.phone = phone;

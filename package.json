@@ -1,7 +1,7 @@
 {
-  "name": "contact-keeper",
+  "name": "Contacts",
   "version": "1.0.0",
-  "description": "Contact manager app",
+  "description": "Contacts application",
   "main": "server.js",
   "scripts": {
     "start": "SET NODE_ENV=production & node server.js",
